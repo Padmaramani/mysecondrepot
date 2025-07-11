@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            background-color: lightpink;
+        }
+        h1 {
+            background-color: coral;
+            color:white;
+            text-align: center;
+            height:100px;
+            line-height: 100px;
+            font-family:'Courier New', Courier, monospace;
+            margin-bottom: 0px;
+        }
+        ul {
+            background-color: red;
+            list-style-type: none;
+            height:50px;        
+            margin-top: 0px;
+
+        }
+        li {
+            display:inline-block;
+            margin:10px;
+
+        }
+        a {
+            color:white;
+            text-decoration: none;
+        }
+        #place{
+            background-color: grey;
+            color:white;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact me</h1>
+    <ul>
+        <li><a href="finalproject.html" >Home</a></li>
+        <li><a href="Favorites.html">Favorites</a></li>
+        <li><a href="family.html">Family</a></li>
+        <li><a href="Contactme.html" id="place">Contact me</a></li>
+    </ul>
+
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <p>Please type what you want to share with us</p>
+    <textarea name="comments" cols="100" rows="10">Enter your comments here...</textarea>
+    <br>
+    <p>Please select your favorite hobbies <br>
+        <input type="radio" name="hobby" value="sing">sing
+        <input type="radio" name="hobby" value="dance">dance
+        <input type="radio" name="hobby" value="tennis">tennis
+        <input type="radio" name="hobby" value="soccer">soccer
+    </p><br>
+    <input type="submit" value="Submit">
+    <p>Upload video of your hobby</p>
+    <input type="file" name="hobbyvideo"><br><br>
+    <input type="submit" value="upload"><br><br>
+  </form> 
+
+  
+
+  </form>
+</body>
+</html>
